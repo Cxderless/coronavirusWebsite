@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>COVID-19 UK Information | Figures</title>
+        <meta name="author" content="Georgios Artikis">
+        <meta name="description" content="Coronavirus information">
+        <meta name="keywords" content="COVID, COVID-19, Coronavirus-19, UK COVID, UK COVID-19, UK Coronavirus-19, COVID Information, COVID-19 Information, Coronavirus-19 Information, COVID Treatment, COVID Symptoms, COVID in UK, United Kingdom Coronavirus, UK Coronavirus Symptoms, UK Coronavirus testing, UK COVID death rates, UK COVID figures, UK COVID rates, UK coronavirus cases, UK covid-19 cases, UK covid cases, United Kingdom Coronavirus Information Details, UK COVID Testing, UK COVID recovery numbers">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="icon" href="icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="figures.css">
+    </head>
+    <body>
+        <div class="top-bar">
+            <p id="logo"><a href="index.html" rel="noreferrer noopener">Coronavirus (COVID-19) in the United Kingdom</a></p>
+        </div>
+        <div class="navigation">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" rel="noreferrer noopener">Home</a></li>
+                    <li><a href="information.html" rel="noreferrer noopener">Info</a></li>
+                    <li><a href="prevention.html" rel="noreferrer noopener">Prevention</a></li>
+                    <li><a href="symptoms.html" rel="noreferrer noopener">Symptoms</a></li>
+                    <li><a href="testing.html" rel="noreferrer noopener">Testing</a></li>
+                    <li><a href="travel.html" rel="noreferrer noopener">Travelling</a></li>
+                    <li><a href="figures.html" rel="noreferrer noopener" class="active">Figures</a></li>
+                    <li><a href="contact.html" rel="noreferrer noopener">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="first-section">
+                <h1 id="first-section-title">Cases</h1>
+                <p id="first-section-text">As of the 22<sup>nd</sup> of August 2020, there are 321,911 coronavirus cases in the United Kingdom. They increase by an average of 90 per day.</p>
+                <button onclick="hideFirstText()" id="first-section-button">Hide Text</button>
+            </div>
+            <div class="second-section">
+                <h1 id="second-section-title">Death & recovery figures</h1>
+                <p id="second-section-text">As of the 15<sup>th</sup> of July 2020, there are 62,677 deaths caused by coronavirus. They increase by an average of 20 per day, which has been lowered from an average of 600
+                per day back in April. The number of people recovered is hidden by the government. For live updates on cases and deaths, see <a href="https://coronavirus-live-tracker.com" target="_blank" rel="noreferrer noopener">here</a>.</p>
+                <button onclick="hideSecondText()" id="second-section-button">Hide Text</button>
+            </div>
+            <div class="third-section">
+                <h1 id="third-section-title">Graphs</h1>
+                <img src="graph-1.png" id="third-section-graph">
+                <img src="graph-2.png" id="third-section-graph">
+                <p id="third-section-text">These 2 graphs can give you a visual representiation of how the virus has peaked in April, and it's slowly settling, altrough a second wave is likely to happen.</p>
+            </div>
+        </div>
+        <script src="figures.js"></script>
+    </body>
+</html>
