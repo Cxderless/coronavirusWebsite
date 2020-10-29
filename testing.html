@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>COVID-19 UK Information | Testing</title>
+        <meta name="author" content="Georgios Artikis">
+        <meta name="description" content="Coronavirus information">
+        <meta name="keywords" content="COVID, COVID-19, Coronavirus-19, UK COVID, UK COVID-19, UK Coronavirus-19, COVID Information, COVID-19 Information, Coronavirus-19 Information, COVID Treatment, COVID Symptoms, COVID in UK, United Kingdom Coronavirus, UK Coronavirus Symptoms, UK Coronavirus testing, UK COVID death rates, UK COVID figures, UK COVID rates, UK coronavirus cases, UK covid-19 cases, UK covid cases, United Kingdom Coronavirus Information Details, UK COVID Testing, UK COVID recovery numbers">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="icon" href="icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="testing.css">
+    </head>
+    <body>
+        <div class="top-bar">
+            <p id="logo"><a href="index.html" rel="noreferrer noopener">Coronavirus (COVID-19) in the United Kingdom</a></p>
+        </div>
+        <div class="navigation">
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" rel="noreferrer noopener">Home</a></li>
+                    <li><a href="information.html" rel="noreferrer noopener">Info</a></li>
+                    <li><a href="prevention.html" rel="noreferrer noopener">Prevention</a></li>
+                    <li><a href="symptoms.html" rel="noreferrer noopener">Symptoms</a></li>
+                    <li><a href="testing.html" rel="noreferrer noopener" class="active">Testing</a></li>
+                    <li><a href="travel.html" rel="noreferrer noopener">Travelling</a></li>
+                    <li><a href="figures.html" rel="noreferrer noopener">Figures</a></li>
+                    <li><a href="contact.html" rel="noreferrer noopener">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="first-section">
+                <h1 id="first-section-title">Who can be tested</h1>
+                <p id="first-section-text">The following people can be tested for coronavirus through the <a href="https://www.nhs.uk/conditions/coronavirus-covid-19/testing-and-tracing/get-an-antigen-test-to-check-if-you-have-coronavirus/" target="_blank" rel="noreferrer noopener">NHS</a>.</p>
+                <ul id="first-section-list">
+                    <li>Anyone in England and Wales who has symptoms of coronavirus, no matter their age</li>
+                    <li>Anyone in Scotland and Northern Irelia who has symptoms of coronavirus and is older than 5 years old</li>
+                    <li>Essential workers in England, Scotland, Wales and Northern Ireland</li>
+                    <li>Anyone in England and Wales who has symptoms of coronavirus, who is over the age of 5 and lives with an essential worker</li>
+                    <li>Children under 5 years old in England and Wales who have symptoms of coronavirus and live with an essential worker</li>
+                </ul>
+                <p id="first-section-text">The previous list is from the <a href="https://www.gov.uk/guidance/coronavirus-covid-19-getting-tested" target="_blank" rel="noreferrer noopener">UK Government website</a> which also includes guidance on <a href="https://www.gov.uk/guidance/coronavirus-covid-19-getting-tested#self-referral" target="_blank" rel="noreferrer noopener">testing for essential workers</a> and the
+                <a href="https://www.gov.uk/guidance/coronavirus-covid-19-getting-tested#essential-workers" target="_blank" rel="noreferrer noopener">list of essential workers.</a></p>
+                <button onclick="hideFirstText()" id="first-section-button">Hide List</button>
+            </div>
+            <div class="second-section">
+                <h1 id="second-section-title">What the test involves</h1>
+                <p id="second-section-text">If you are an essential worker, you can apply for a coronavirus test through the UK government website <a href="https://www.gov.uk/apply-coronavirus-test-essential-workers" target="_blank" rel="noreferrer noopener">here</a>.
+                The test involves taking a swab of the inside of your nose and the back of your throat, using a long cotton bud.</p>
+                <button onclick="hideSecondText()" id="second-section-button">Hide Text</button>
+            </div>
+            <div class="third-section">
+                <h1 id="third-section-title">List of essential workers</h1>
+                <p id="third-section-text">As mentioned, the list of essential workers can be found on the government website <a href="https://www.gov.uk/guidance/coronavirus-covid-19-getting-tested#essential-workers" target="_blank" rel="noreferrer noopener">here</a>.</p>
+                <button onclick="hideThirdText()" id="third-section-button">Hide Text</button>
+            </div>
+        </div>
+        <script src="testing.js"></script>
+    </body>
+</html>
